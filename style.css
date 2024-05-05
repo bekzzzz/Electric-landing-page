@@ -91,7 +91,7 @@ nav .fa {
   width: 90%;
   color: #3a3a3a;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -251,7 +251,7 @@ nav .fa {
     width: 90%;
     color: #3a3a3a;
     position: absolute;
-    top: 65%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -267,8 +267,8 @@ nav .fa {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 85%;
-    left: 50%;
+    top: 103%;
+    left: 60%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -293,6 +293,11 @@ nav .fa {
 
   .call-electrik-number h3 {
     font-weight: 500;
+  }
+
+  .hero-img {
+    width: 250px;
+    margin-left: -280px;
   }
 }
 
