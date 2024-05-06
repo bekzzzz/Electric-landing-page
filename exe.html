@@ -17,7 +17,8 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="images/logo + text.png" /></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
           <ul>
             <li>
               <a href=""><img src="images/location.png" alt="" /></a>
@@ -48,7 +49,7 @@
 
       <div class="content">
         <div class="our-offers">
-          <div class="our-offers-ul">
+          <div>
             <h2>Наши услуги</h2>
             <ul>
               <li>Электро монтаж</li>
@@ -78,27 +79,31 @@
       </div>
     </section>
 
+    <!-------- footer ---------->
+
     <section class="footer">
-      <nav>
-        <a href="index.html"><img src="images/logo + text.png" /></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-close" onclick="hideMenu()"></i>
-          <ul>
-            <li>
-              <a href=""><img src="images/location.png" alt="" /></a>
-            </li>
-            <li>
-              <a href="https://wa.me/+996709745983"
-                ><img src="images/whatsapp.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href=""><img src="images/name+phonenumber.png" alt="" /></a>
-            </li>
-          </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
+      <section class="footer-header">
+        <nav>
+          <a href="index.html"><img src="images/logo + text.png" /></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+              <li>
+                <a href=""><img src="images/location.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="https://wa.me/+996709745983"
+                  ><img src="images/whatsapp.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href=""><img src="images/name+phonenumber.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </section>
     </section>
 
     <script></script>
