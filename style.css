@@ -300,6 +300,10 @@ nav .fa {
 }
 
 @media (min-width: 1260px) {
+  .hero-page {
+    min-height: 80vh;
+  }
+
   .text-box h1 {
     font-size: 32px;
     padding-top: 60px;
