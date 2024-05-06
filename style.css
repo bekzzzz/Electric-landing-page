@@ -48,6 +48,12 @@ nav .fa {
 }
 
 @media (min-width: 450px) {
+  .header {
+    min-height: 20vh;
+    width: 100%;
+    background-color: rgb(255, 251, 245);
+  }
+
   nav img {
     width: 250px;
   }
